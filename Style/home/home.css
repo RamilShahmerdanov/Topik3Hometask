@@ -1,0 +1,331 @@
+.container{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+
+    font-family: var(--fontinter);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px; 
+    background-color: var(--headerback);
+}
+.logoname{
+    display: flex;
+}
+.navlist{
+    display: flex;
+}
+.headright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 120px; */
+}
+.logoname img{
+    padding-left: 110px;
+    width: 150px;
+    height: 24px;
+}
+.navlink{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--blacktextkcol);
+}
+.navlist{
+    gap: 50px;
+    margin-right: 110px;
+    margin-left: 130px;
+}
+.headright{
+    margin-right: 120px;
+    gap: 14px;
+}
+.login{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--maingreen);
+
+}
+.signup{
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: var(--maingreen);
+    color:var(--white) ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.homehead{
+    display: flex;
+    justify-content: center;
+    gap:104px ;
+    background-color: var(--headerback);
+    padding-right: 144px;
+    padding-left: 144px;
+}
+.homeheadleft{
+    margin-top: 161px;
+    /* margin-left:144px ; */
+}
+.hometext1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+}
+.hometext2{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--blacktextkcol);
+    line-height: 24px;
+    color: var(--subblackcolor);
+}
+.registerbtn{
+    margin-top: 32px;
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: var(--maingreen);
+    color: var(--white);
+    font-size:16px ;
+    font-weight: 500;
+}
+.homeheadright{
+    margin-top:96px ;
+    /* margin-right:144px ; */
+
+}
+.homebody{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homebodytext h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--blacktextkcol);
+    text-align: center;
+
+
+}
+.homebodytext p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--subblackcolor);
+}
+.homelogos{
+    margin-top: 16px;
+    display: flex;
+    gap:136px ;
+    /* margin-right: 144px;
+    margin-left: 144px; */
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.homefoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.homefootext h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--blacktextkcol);
+
+
+}
+.homefootext p{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--subblackcolor);
+    line-height: 24px;
+}
+.homefootimg{
+    display: flex;
+    justify-content: space-between;
+    gap: 127px;
+}
+.bodytop{
+    display: flex;
+    justify-content: center;
+    gap:49px ;
+    margin-top: 42px;
+}
+.bodytop2{
+    display: flex;
+    justify-content: center;
+    gap:72px;
+    margin-top:48px ;
+    background-color:var(--headerback) ;
+}
+.bodycenter{
+    display: flex;
+    justify-content: center;
+    gap: 50;
+    margin-top:48px ;
+}
+.bodycenterimg2{
+    padding-top:63px ;
+}
+.bodycenter2{
+    display: flex;
+    justify-content: center;
+    gap:78px ;
+    margin-top:80px ;
+    background-color:var(--headerback) ;
+}
+.bodycenterimage2{
+    padding-top: 73px;
+}
+.bodyfoot{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+}
+.bodyfoottext1 h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+  color: var(--mainblackcol);
+  text-align: center;
+    
+}
+.bodyfoottext1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--subblackcolor);
+    font-family: var(--fontinter);
+   
+}
+.bodyfootimg{
+    margin-top: 16px;
+    display: flex;
+    gap:24px ;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    align-items: center;
+    padding-top: 32px;
+    
+}
+.footext{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.footext1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: var(--logonamecol);
+    text-align: center;
+}
+.footbtn{
+    width: 178px;
+    height: 52px;
+    border-radius:4px ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--maingreen);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.footnav{
+    padding-top:64px ;
+    display: flex;
+    background-color: var(--footbgcolor);
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 64px;
+    margin-bottom: 50px;
+}
+.footnavright{
+    margin-left: 125px;
+    display: flex;
+    gap:60px ;
+}
+
+.footnavleft p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--headerback);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.footlogos{
+    width: 176px;
+    height: 32px;
+}
+.footnavright h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--white);
+    margin-bottom: 24px;
+
+}
+.footnavlist{
+    margin-bottom: 12px;
+}
+.footnavlink{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--headerback);
+   
+}
+.formright  p{
+    color:var(--white) ;
+    margin-bottom: 24px ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.footnavinput{
+   
+    width: 255px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--graylayerColor);
+    color: var(--whiteColor);
+    font-size: 14px;
+    font-weight: 400;
+}
+.footnavinput::placeholder{
+    color: var(--whitelayerColor);
+    
+}
+
